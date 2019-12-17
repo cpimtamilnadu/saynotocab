@@ -393,11 +393,14 @@ Respected Sir,
     var bccAddress = "saynotocab2019@gmail.com";
 
     var subject =
-      pickOne(["Re:", "Regarding the", "On the", "About the", "Sub:", "Response:", "As an Indian citizen"]) + " " +
-      pickOne(["Act", "bill", "Amendment"]) + " " +
-      pickOne(["about", "on", "concerned with", "regarding", "of"]) + " " +
-      pickOne(["the Act of", "the amendment of", "the bill passed"]) + " " +
-      pickOne(["Citizenship Act", "National Register of Citizens"]);
+      pickOne(["Re:", "Regarding the", "About the", "Sub:", "Response:"]) + " " +
+      pickOne(["Appeal to scrap CAA", 
+      "Appeal to Chief Justice of India to scrap unconstitutional CAA", 
+      "A concerned citizens appeal to scrap CAA",
+      "Request to scrap Citizenship Amendment Bill", 
+      "Citizenship amendment act is unconstitutional", 
+      "Request to scrap CAA and save India",
+      "Appeal to CJI to scrap CAA and save Constitution","",""]);
 
     var body = document.getElementById("message").value
     var encodedBody = encodeURIComponent(body);
